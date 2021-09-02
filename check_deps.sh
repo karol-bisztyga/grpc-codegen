@@ -6,7 +6,7 @@ set -e
 
 echo "checking dependencies..."
 
-for LIB in autoconf automake libtool curl make g++ unzip
+for LIB in autoconf automake libtool curl make g++ unzip wget
 do
   export PRESENT=1
   echo -n "$LIB "
